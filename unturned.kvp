@@ -7,7 +7,7 @@ App.CommandLineArgs=-batchmode -nographics -ThreadedConsole -NetTransport=SteamN
 App.CommandLineParameterDelimiter= 
 App.CommandLineParameterFormat=-{0} {1}
 App.DisplayName=Unturned
-App.EnvironmentVariables={"LD_LIBRARY_PATH": "./1110390/Unturned_Headless_Data/Plugins/x86_64/", "SteamAppId": "1110390"}
+App.EnvironmentVariables={"LD_LIBRARY_PATH": "./1110390/Unturned_Headless_Data/Plugins/x86_64/", "SteamAppId": "1110390", "TERM":"xterm"}
 App.ExecutableLinux=1110390/Unturned_Headless.x86_64
 App.ExecutableWin=1110390\Unturned.exe
 App.ExitMethod=String
