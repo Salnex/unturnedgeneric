@@ -1,0 +1,67 @@
+[
+    {
+        "DisplayName": "Server ID",
+        "Category": "Server",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "SERVER_ID",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "SERVER_ID",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "SalsAmpServer",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Maximum Players",
+        "Category": "Server",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "maxplayers",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "maxplayers",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "8",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Game mode",
+        "Category": "Server",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "mode",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "mode",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "survival",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Perspective",
+        "Category": "Server",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "perspective",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "perspective",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "first",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Map",
+        "Category": "Server",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "map",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "map",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "pei",
+        "EnumValues": {}
+    }
+]
