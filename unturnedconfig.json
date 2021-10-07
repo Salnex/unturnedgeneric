@@ -31,12 +31,15 @@
         "Description": "",
         "Keywords": "",
         "FieldName": "mode",
-        "InputType": "text",
+        "InputType": "enum",
         "IsFlagArgument": false,
         "ParamFieldName": "mode",
         "IncludeInCommandLine": true,
-        "DefaultValue": "survival",
-        "EnumValues": {}
+        "DefaultValue": "normal",
+        "EnumValues": {
+            "normal": "Normal Mode",
+            "hardcore": "Hardcore mode"
+        }
     },
     {
         "DisplayName": "Perspective",
@@ -44,12 +47,16 @@
         "Description": "",
         "Keywords": "",
         "FieldName": "perspective",
-        "InputType": "text",
+        "InputType": "enum",
         "IsFlagArgument": false,
         "ParamFieldName": "perspective",
         "IncludeInCommandLine": true,
         "DefaultValue": "first",
-        "EnumValues": {}
+        "EnumValues": {
+            "first": "First Person Only",
+            "third": "Third Person Only",
+            "both": "Allow both third and first person"
+        }
     },
     {
         "DisplayName": "Map",
